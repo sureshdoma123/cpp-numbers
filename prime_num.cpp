@@ -21,7 +21,7 @@ main()
 }
 
 //Method 2
-
+/*
 #include<bits\stdc++.h>
 using namespace std;
 main()
@@ -41,9 +41,9 @@ main()
 	else
 		cout<<"Not a Prime Number";
 }
-
+*/
 //Method 3
-
+/*
 #include<bits\stdc++.h>
 using namespace std;
 main()
@@ -64,3 +64,4 @@ main()
 		cout<<"Not a Prime Number";
 	
 }
+*/
