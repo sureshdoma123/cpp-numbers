@@ -1,4 +1,4 @@
-//Method 1
+//Method 1(Range 2 to n-1)
 
 #include<bits\stdc++.h>
 using namespace std;
@@ -20,7 +20,7 @@ main()
 		cout<<"Not a Prime number";
 }
 
-//Method 2
+//Method 2(Range 1 to n/2)
 /*
 #include<bits\stdc++.h>
 using namespace std;
@@ -42,7 +42,7 @@ main()
 		cout<<"Not a Prime Number";
 }
 */
-//Method 3
+//Method 3(upto square root of n)
 /*
 #include<bits\stdc++.h>
 using namespace std;
