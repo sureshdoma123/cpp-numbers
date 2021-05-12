@@ -19,7 +19,7 @@ int main()
 	{
 		n=s;
 	}
-	if((n==1 || n==7) && n!=4)
+	if(n==1 || n==7)
 	{
 		cout<<"Happy Number";
 	}
