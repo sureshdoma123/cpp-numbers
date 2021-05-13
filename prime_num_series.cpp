@@ -9,7 +9,7 @@ int main()
    int isprime;
    int n;
    cout<<"Enter a number: ";
-   	cin>>n;
+   cin>>n;
    for(int i=2;i<n;i++) 
    {
       isprime=primenumber(i);
@@ -21,15 +21,16 @@ int main()
 
 int primenumber(int n) 
 {
-   int isprime=1;
+   int isprime=1,i=2;
 
-   for(int i=2;i<=n/2;i++) 
+   while(i<=n/2) 
    {
       if(n%i==0) 
 	  {
          isprime=0;
          break;
       }
+	   i++;
    }  
    return isprime;
 }
